@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Zotero使用笔记
-      link: /Zotero使用笔记/00 Zotero 安装
+      link: /Zotero使用笔记/00 Zotero安装与上手
 # features:
 #   - title: Feature A
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

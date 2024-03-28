@@ -8,7 +8,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Zotero使用笔记", link: "/Zotero使用笔记/00 Zotero安装与上手" },
+      {
+        text: "Zotero使用笔记",
+        link: "/Zotero使用笔记/00 Zotero安装与上手",
+      },
     ],
 
     sidebar: {
