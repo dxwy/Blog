@@ -27,22 +27,22 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "Zotero使用笔记",
-        link: "/Zotero使用笔记/00 Zotero安装与上手",
+        text: "Zotero 使用笔记",
+        link: "/Zotero 使用笔记/00 Zotero 安装与上手",
       },
     ],
     sidebar: {
-      "/Zotero使用笔记/": [
+      "/Zotero 使用笔记/": [
         {
-          text: "Zotero使用笔记",
+          text: "Zotero 使用笔记",
           items: [
             {
-              text: "00 Zotero安装与上手",
-              link: "/Zotero使用笔记/00 Zotero安装与上手",
+              text: "00 Zotero 安装与上手",
+              link: "/Zotero 使用笔记/00 Zotero 安装与上手",
             },
             {
-              text: "01 使用WebDAV协议同步Zotero附件——InfiniCLOUD",
-              link: "/Zotero使用笔记/01 使用WebDAV协议同步Zotero附件——InfiniCLOUD",
+              text: "01 使用 WebDAV 协议同步 Zotero 附件——InfiniCLOUD",
+              link: "/Zotero 使用笔记/01 使用 WebDAV 协议同步 Zotero 附件——InfiniCLOUD",
             },
           ],
         },

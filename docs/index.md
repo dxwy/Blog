@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "Yuchen Wu's blog"
-  text: "一个分享技术的站点"
-  # tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Zotero使用笔记
-      link: /Zotero使用笔记/00 Zotero安装与上手
+    name: "Yuchen Wu's blog"
+    text: "一个分享技术的站点"
+    # tagline: My great project tagline
+    actions:
+        - theme: brand
+          text: Zotero 使用笔记
+          link: /Zotero 使用笔记/00 Zotero 安装与上手
 # features:
 #   - title: Feature A
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
