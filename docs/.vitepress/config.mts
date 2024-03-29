@@ -7,10 +7,19 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   head: [
-    ["link", { rel: "icon", href: "/Blog/favicon-200x200-dxwy.png" }],
+    ["link", { rel: "icon", href: "/favicon-200x200-dxwy.png" }],
     [
       "script",
-      { src: "https://hm.baidu.com/hm.js?8e7e0af519a0476c309e036518ef0011" },
+      {},
+      `
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?8e7e0af519a0476c309e036518ef0011";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+      `,
     ],
   ],
   themeConfig: {
