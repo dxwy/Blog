@@ -10,7 +10,7 @@ export default defineConfig({
     ["link", { rel: "icon", href: "/Blog/favicon-200x200-dxwy.png" }],
     [
       "script",
-      { src: "https://hm.baidu.com/hm.js?31584b4f6f8556207d9b19467e2a968a" },
+      { src: "https://hm.baidu.com/hm.js?8e7e0af519a0476c309e036518ef0011" },
     ],
   ],
   themeConfig: {
