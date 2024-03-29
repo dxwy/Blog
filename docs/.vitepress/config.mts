@@ -6,22 +6,7 @@ export default defineConfig({
   title: "Yuchen Wu's blog",
   description: "A VitePress Site",
   lastUpdated: true,
-  head: [
-    ["link", { rel: "icon", href: "/Blog/favicon-200x200-dxwy.png" }],
-    [
-      "script",
-      {},
-      `
-        var _hmt = _hmt || [];
-        (function() {
-          var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?8e7e0af519a0476c309e036518ef0011";
-          var s = document.getElementsByTagName("script")[0];
-          s.parentNode.insertBefore(hm, s);
-        })();
-      `,
-    ],
-  ],
+  head: [["link", { rel: "icon", href: "/Blog/favicon-200x200-dxwy.png" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
