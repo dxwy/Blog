@@ -7,7 +7,7 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   head: [
-    ["link", { rel: "icon", href: "/favicon-200x200-dxwy.png" }],
+    ["link", { rel: "icon", href: "/Blog/favicon-200x200-dxwy.png" }],
     [
       "script",
       {},
