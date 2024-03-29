@@ -2,9 +2,17 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/VitePressBlog/",
+  base: "/Blog/",
   title: "Yuchen Wu's blog",
   description: "A VitePress Site",
+  lastUpdated: true,
+  head: [
+    ["link", { rel: "icon", href: "/Blog/favicon-200x200-dxwy.png" }],
+    [
+      "script",
+      { src: "https://hm.baidu.com/hm.js?31584b4f6f8556207d9b19467e2a968a" },
+    ],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -14,7 +22,6 @@ export default defineConfig({
         link: "/Zotero使用笔记/00 Zotero安装与上手",
       },
     ],
-
     sidebar: {
       "/Zotero使用笔记/": [
         {
@@ -32,14 +39,25 @@ export default defineConfig({
         },
       ],
     },
-
     socialLinks: [{ icon: "github", link: "https://github.com/dxwy" }],
     lastUpdated: {
-      text: "Updated at",
       formatOptions: {
         dateStyle: "full",
         timeStyle: "medium",
       },
     },
+    editLink: {
+      pattern: "https://github.com/dxwy/Blog/edit/main/docs/:path",
+      text: "Edit this page on GitHub",
+    },
+    search: {
+      provider: "local",
+    },
+    footer: {
+      message: "Released under the MIT License.",
+      copyright:
+        'Copyright © 2024-present <a href="https://github.com/dxwy">dxwy</a>',
+    },
+    logo: "/favicon-200x200-dxwy.png",
   },
 });
