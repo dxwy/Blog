@@ -1,0 +1,7 @@
+{
+  "deleteOption": "system-trash",
+  "logsModal": true,
+  "excludedFolders": "docs/public,node_modules",
+  "ribbonIcon": true,
+  "excludeSubfolders": true
+}
